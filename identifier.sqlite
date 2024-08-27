@@ -1,0 +1,9 @@
+/media/
+/static/
+*.sqlite3
+*.log
+*.pyc
+*db.sqlite3
+*../.idea/
+*../django/
+*../identifier.sqlite
