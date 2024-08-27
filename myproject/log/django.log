@@ -1,0 +1,1352 @@
+Watching for file changes with StatReloader
+/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /prefixabout/
+"GET /prefixabout/ HTTP/1.1" 404 2223
+"GET /prefix/about/ HTTP/1.1" 200 27
+"GET /prefix/ HTTP/1.1" 200 13
+/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+index page accessed
+"GET /prefix/ HTTP/1.1" 200 13
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp/views.py", line 16, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 27
+/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myproject/settings.py changed, reloading.
+INFO 2024-08-19 20:13:50,242 autoreload 86899 8485506048 Watching for file changes with StatReloader
+ERROR 2024-08-19 20:15:15,526 views 86899 6123237376 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp/views.py", line 16, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+INFO 2024-08-19 20:15:15,530 basehttp 86899 6123237376 "GET /prefix/about/ HTTP/1.1" 200 27
+ERROR 2024-08-19 20:15:21,318 views 86899 6123237376 Error in about page: division by zero
+Traceback (most recent call last):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp/views.py", line 16, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+INFO 2024-08-19 20:15:21,321 basehttp 86899 6123237376 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-08-19 20:15:28,268 views 86899 6123237376 index page accessed
+INFO 2024-08-19 20:15:28,268 basehttp 86899 6123237376 "GET /prefix/ HTTP/1.1" 200 13
+INFO 2024-08-20 20:31:44,550 autoreload 89971 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-20 20:32:55,081 autoreload 90003 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-20 20:37:38,613 autoreload 90054 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 15:32:36,688 autoreload 99685 8485506048 Watching for file changes with StatReloader
+WARNING 2024-08-23 15:32:43,370 log 99685 6136918016 Not Found: /
+WARNING 2024-08-23 15:32:43,370 basehttp 99685 6136918016 "GET / HTTP/1.1" 404 2274
+WARNING 2024-08-23 15:33:13,111 log 99685 6136918016 Not Found: /les3/
+WARNING 2024-08-23 15:33:13,112 basehttp 99685 6136918016 "GET /les3/ HTTP/1.1" 404 2548
+INFO 2024-08-23 15:33:33,650 basehttp 99685 6136918016 "GET /les3/hello HTTP/1.1" 301 0
+INFO 2024-08-23 15:33:33,652 basehttp 99685 6153744384 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2024-08-23 15:33:41,802 basehttp 99685 6153744384 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2024-08-23 15:50:54,095 autoreload 99685 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp/urls.py changed, reloading.
+INFO 2024-08-23 15:50:54,481 autoreload 99925 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 15:58:20,737 autoreload 150 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 15:59:20,532 autoreload 150 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp/urls.py changed, reloading.
+INFO 2024-08-23 15:59:20,824 autoreload 183 8485506048 Watching for file changes with StatReloader
+WARNING 2024-08-23 15:59:23,104 log 183 6122680320 Not Found: /
+WARNING 2024-08-23 15:59:23,104 basehttp 183 6122680320 "GET / HTTP/1.1" 404 2274
+INFO 2024-08-23 15:59:52,907 basehttp 183 6122680320 "GET /les3/posts/2022/ HTTP/1.1" 200 19
+INFO 2024-08-23 16:03:28,718 basehttp 183 6122680320 "GET /les3/posts/2022/6/ HTTP/1.1" 200 21
+INFO 2024-08-23 16:03:38,853 basehttp 183 6122680320 "GET /les3/posts/2022/6/python/ HTTP/1.1" 200 360
+INFO 2024-08-23 16:33:53,895 autoreload 183 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/views.py changed, reloading.
+INFO 2024-08-23 16:33:54,217 autoreload 441 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 16:45:18,143 autoreload 441 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/views.py changed, reloading.
+INFO 2024-08-23 16:45:18,549 autoreload 580 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 16:48:22,157 autoreload 580 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/views.py changed, reloading.
+INFO 2024-08-23 16:48:22,468 autoreload 624 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 16:49:31,467 autoreload 624 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-08-23 16:49:31,800 autoreload 645 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 16:49:36,845 basehttp 645 6170193920 "GET /les3/ HTTP/1.1" 200 175
+INFO 2024-08-23 16:57:28,573 autoreload 645 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/views.py changed, reloading.
+INFO 2024-08-23 16:57:29,000 autoreload 734 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 16:58:38,924 autoreload 734 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/views.py changed, reloading.
+INFO 2024-08-23 16:58:39,381 autoreload 755 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 17:03:02,094 autoreload 755 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-08-23 17:03:02,405 autoreload 813 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 17:03:07,089 basehttp 813 6201847808 "GET /les3/if/ HTTP/1.1" 200 342
+INFO 2024-08-23 17:11:37,474 autoreload 813 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/views.py changed, reloading.
+INFO 2024-08-23 17:11:37,799 autoreload 977 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 17:19:12,900 autoreload 977 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-08-23 17:19:13,307 autoreload 1068 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 17:19:25,397 basehttp 1068 6164541440 "GET /les3/for/ HTTP/1.1" 200 859
+INFO 2024-08-23 17:49:56,668 autoreload 1068 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-08-23 17:49:57,031 autoreload 1332 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 17:50:03,983 basehttp 1332 6162657280 "GET /les3/index/ HTTP/1.1" 200 252
+INFO 2024-08-23 17:50:16,826 basehttp 1332 6162657280 "GET /les3/about/ HTTP/1.1" 200 258
+INFO 2024-08-23 17:55:53,817 autoreload 1332 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myproject/settings.py changed, reloading.
+INFO 2024-08-23 17:55:54,186 autoreload 1393 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 17:58:20,079 basehttp 1393 6130282496 "GET /les3/index/ HTTP/1.1" 200 312
+INFO 2024-08-23 17:59:51,246 autoreload 1393 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myproject/urls.py changed, reloading.
+INFO 2024-08-23 17:59:51,585 autoreload 1483 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 18:00:41,370 basehttp 1483 6160953344 "GET / HTTP/1.1" 200 312
+INFO 2024-08-23 18:16:36,988 autoreload 1483 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp2/models.py changed, reloading.
+INFO 2024-08-23 18:16:37,302 autoreload 1663 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 18:18:15,685 autoreload 1663 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp2/models.py changed, reloading.
+INFO 2024-08-23 18:18:15,987 autoreload 1679 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 18:49:22,031 autoreload 2110 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 18:49:25,976 basehttp 2110 6197817344 "GET /les3/post/1/ HTTP/1.1" 200 704
+INFO 2024-08-23 18:54:32,335 basehttp 2110 6197817344 "GET /les3/post/1/ HTTP/1.1" 200 704
+INFO 2024-08-23 18:54:33,185 basehttp 2110 6197817344 "GET /les3/post/1/ HTTP/1.1" 200 704
+INFO 2024-08-23 18:54:33,336 basehttp 2110 6197817344 "GET /les3/post/1/ HTTP/1.1" 200 704
+INFO 2024-08-23 18:54:33,928 basehttp 2110 6197817344 "GET /les3/post/1/ HTTP/1.1" 200 704
+INFO 2024-08-23 18:54:34,112 basehttp 2110 6197817344 "GET /les3/post/1/ HTTP/1.1" 200 704
+INFO 2024-08-23 18:54:34,264 basehttp 2110 6197817344 "GET /les3/post/1/ HTTP/1.1" 200 704
+INFO 2024-08-23 18:54:34,411 basehttp 2110 6197817344 "GET /les3/post/1/ HTTP/1.1" 200 704
+INFO 2024-08-23 18:57:11,199 autoreload 2110 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-08-23 18:57:11,554 autoreload 2254 8485506048 Watching for file changes with StatReloader
+ERROR 2024-08-23 18:57:14,350 log 2254 6126448640 Internal Server Error: /les3/post/1/
+Traceback (most recent call last):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: post_detail() got an unexpected keyword argument 'post_id'
+ERROR 2024-08-23 18:57:14,350 basehttp 2254 6126448640 "GET /les3/post/1/ HTTP/1.1" 500 57343
+INFO 2024-08-23 18:57:28,878 autoreload 2254 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-08-23 18:57:29,177 autoreload 2265 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 18:59:21,061 autoreload 2285 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 18:59:24,061 basehttp 2285 6197424128 "GET /les3/post/1/ HTTP/1.1" 200 704
+INFO 2024-08-23 19:02:24,567 basehttp 2285 6197424128 "GET /les3/post/1/ HTTP/1.1" 200 704
+INFO 2024-08-23 19:02:26,622 basehttp 2285 6197424128 "GET /les3/post/1/ HTTP/1.1" 200 704
+INFO 2024-08-23 19:02:27,284 basehttp 2285 6197424128 "GET /les3/post/1/ HTTP/1.1" 200 704
+INFO 2024-08-23 19:02:27,455 basehttp 2285 6197424128 "GET /les3/post/1/ HTTP/1.1" 200 704
+INFO 2024-08-23 19:02:27,626 basehttp 2285 6197424128 "GET /les3/post/1/ HTTP/1.1" 200 704
+INFO 2024-08-23 19:02:32,886 basehttp 2285 6197424128 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:04:53,090 basehttp 2285 6197424128 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:04:53,950 basehttp 2285 6197424128 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:04:54,113 basehttp 2285 6197424128 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:04:54,279 basehttp 2285 6197424128 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:04:54,454 basehttp 2285 6197424128 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:04:54,636 basehttp 2285 6197424128 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:04:54,793 basehttp 2285 6197424128 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:04:54,953 basehttp 2285 6197424128 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:04:55,103 basehttp 2285 6197424128 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:04:55,263 basehttp 2285 6197424128 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:04:55,437 basehttp 2285 6197424128 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:04:55,609 basehttp 2285 6197424128 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:04:55,778 basehttp 2285 6197424128 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:08:08,313 autoreload 2285 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/models.py changed, reloading.
+INFO 2024-08-23 19:08:08,711 autoreload 2398 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 19:08:10,108 basehttp 2398 6158561280 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:08:17,957 autoreload 2398 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/models.py changed, reloading.
+INFO 2024-08-23 19:08:18,253 autoreload 2405 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 19:10:58,196 autoreload 2465 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-23 19:11:00,089 basehttp 2465 6190739456 "GET / HTTP/1.1" 200 312
+WARNING 2024-08-23 19:11:11,082 log 2465 6190739456 Not Found: /author/4
+WARNING 2024-08-23 19:11:11,082 basehttp 2465 6190739456 "GET /author/4 HTTP/1.1" 404 2416
+WARNING 2024-08-23 19:11:14,733 log 2465 6190739456 Not Found: /author/4/
+WARNING 2024-08-23 19:11:14,734 basehttp 2465 6190739456 "GET /author/4/ HTTP/1.1" 404 2419
+INFO 2024-08-23 19:11:46,541 basehttp 2465 6190739456 "GET /les3/author/4/ HTTP/1.1" 200 1476
+INFO 2024-08-23 19:11:50,963 basehttp 2465 6190739456 "GET /les3/post/40/ HTTP/1.1" 200 730
+INFO 2024-08-23 19:11:57,752 basehttp 2465 6190739456 "GET /les3/author/1/ HTTP/1.1" 200 1464
+INFO 2024-08-23 19:12:00,591 basehttp 2465 6190739456 "GET /les3/post/10/ HTTP/1.1" 200 748
+INFO 2024-08-23 19:12:03,888 basehttp 2465 6190739456 "GET /les3/post/9/ HTTP/1.1" 200 725
+INFO 2024-08-23 19:13:14,945 basehttp 2465 6190739456 "GET /les3/post/5/ HTTP/1.1" 200 709
+INFO 2024-08-23 19:13:38,107 basehttp 2465 6190739456 "GET /les3/post/10/ HTTP/1.1" 200 748
+INFO 2024-08-24 16:17:39,849 autoreload 5485 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 16:17:40,956 basehttp 5485 6201667584 "GET / HTTP/1.1" 200 312
+ERROR 2024-08-24 16:18:00,678 log 5485 6201667584 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-08-24 16:18:00,678 basehttp 5485 6201667584 "GET /les4/user/add/ HTTP/1.1" 500 61712
+INFO 2024-08-24 16:18:37,385 basehttp 5485 6201667584 "GET / HTTP/1.1" 200 312
+WARNING 2024-08-24 16:19:02,734 log 5485 6201667584 Not Found: /les4
+WARNING 2024-08-24 16:19:02,734 basehttp 5485 6201667584 "GET /les4 HTTP/1.1" 404 2509
+ERROR 2024-08-24 16:19:21,184 log 5485 6201667584 Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-08-24 16:19:21,184 basehttp 5485 6201667584 "GET /les4/user/add/ HTTP/1.1" 500 61712
+WARNING 2024-08-24 16:20:36,474 log 5485 6201667584 Not Found: /les4/
+WARNING 2024-08-24 16:20:36,475 basehttp 5485 6201667584 "GET /les4/ HTTP/1.1" 404 2586
+INFO 2024-08-24 16:26:15,321 basehttp 5485 6201667584 "GET / HTTP/1.1" 200 312
+INFO 2024-08-24 16:26:16,162 autoreload 5485 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/views.py changed, reloading.
+INFO 2024-08-24 16:26:16,476 autoreload 5539 8485506048 Watching for file changes with StatReloader
+WARNING 2024-08-24 16:26:35,944 log 5539 6161870848 Not Found: /les4/users/add/
+WARNING 2024-08-24 16:26:35,944 basehttp 5539 6161870848 "GET /les4/users/add/ HTTP/1.1" 404 2616
+INFO 2024-08-24 16:26:47,721 basehttp 5539 6161870848 "GET /les4/user/add/ HTTP/1.1" 200 753
+INFO 2024-08-24 16:35:13,744 basehttp 5539 6161870848 "GET /les4/user/add/ HTTP/1.1" 200 971
+INFO 2024-08-24 16:36:19,602 basehttp 5539 6161870848 "POST /les4/user/add/ HTTP/1.1" 200 1011
+INFO 2024-08-24 16:37:36,410 basehttp 5539 6161870848 "POST /les4/user/add/ HTTP/1.1" 200 1011
+INFO 2024-08-24 17:09:36,267 autoreload 5539 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/forms.py changed, reloading.
+INFO 2024-08-24 17:09:36,589 autoreload 5781 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 17:11:30,299 autoreload 5781 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/views.py changed, reloading.
+INFO 2024-08-24 17:11:30,605 autoreload 5814 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 17:12:22,501 autoreload 5814 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/urls.py changed, reloading.
+INFO 2024-08-24 17:12:22,822 autoreload 5823 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 17:13:02,480 autoreload 5823 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/urls.py changed, reloading.
+INFO 2024-08-24 17:13:02,665 autoreload 5829 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 17:14:35,300 autoreload 5838 8485506048 Watching for file changes with StatReloader
+ERROR 2024-08-24 17:14:45,835 log 5838 6194425856 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/views.py", line 30, in many_fields_form
+    return render(request, 'myapp4/many_fields_form.html', {'form': form})
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/many_fields_form.html
+ERROR 2024-08-24 17:14:45,838 basehttp 5838 6194425856 "GET /les4/forms/ HTTP/1.1" 500 76641
+ERROR 2024-08-24 17:14:54,597 log 5838 6194425856 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/views.py", line 30, in many_fields_form
+    return render(request, 'myapp4/many_fields_form.html', {'form': form})
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/many_fields_form.html
+ERROR 2024-08-24 17:14:54,597 basehttp 5838 6194425856 "GET /les4/forms/ HTTP/1.1" 500 76778
+INFO 2024-08-24 17:17:05,078 basehttp 5838 6194425856 "GET / HTTP/1.1" 200 312
+INFO 2024-08-24 17:17:15,473 basehttp 5838 6194425856 "GET /les4/forms/ HTTP/1.1" 200 1514
+INFO 2024-08-24 17:18:14,191 basehttp 5838 6194425856 "POST /les4/forms/ HTTP/1.1" 200 1585
+INFO 2024-08-24 19:06:43,654 autoreload 5838 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/forms.py changed, reloading.
+INFO 2024-08-24 19:06:43,998 autoreload 6303 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 19:11:54,013 autoreload 6303 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/forms.py changed, reloading.
+INFO 2024-08-24 19:11:54,295 autoreload 6332 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 19:12:01,658 basehttp 6332 6166032384 "POST /les4/forms/ HTTP/1.1" 200 2264
+INFO 2024-08-24 19:12:38,551 basehttp 6332 6166032384 "POST /les4/forms/ HTTP/1.1" 200 2225
+INFO 2024-08-24 19:15:06,580 autoreload 6332 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/forms.py changed, reloading.
+INFO 2024-08-24 19:15:06,906 autoreload 6363 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 19:20:58,185 autoreload 6363 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/forms.py changed, reloading.
+INFO 2024-08-24 19:20:58,540 autoreload 6397 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 19:21:01,747 basehttp 6397 6159560704 "POST /les4/forms/ HTTP/1.1" 200 2225
+INFO 2024-08-24 19:27:31,130 autoreload 6397 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/forms.py changed, reloading.
+INFO 2024-08-24 19:27:31,459 autoreload 6428 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 19:31:24,947 autoreload 6428 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/models.py changed, reloading.
+INFO 2024-08-24 19:31:25,247 autoreload 6438 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 19:32:28,370 autoreload 6438 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/models.py changed, reloading.
+INFO 2024-08-24 19:32:28,562 autoreload 6442 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 19:39:24,995 autoreload 6502 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 19:39:43,375 basehttp 6502 6131019776 "POST /les4/forms/ HTTP/1.1" 200 2225
+INFO 2024-08-24 19:39:59,961 basehttp 6502 6131019776 "GET /les4/user/add/ HTTP/1.1" 200 981
+WARNING 2024-08-24 19:40:05,587 log 6502 6131019776 Not Found: /les4/user/
+WARNING 2024-08-24 19:40:05,587 basehttp 6502 6131019776 "GET /les4/user/ HTTP/1.1" 404 2959
+INFO 2024-08-24 19:40:14,981 basehttp 6502 6131019776 "GET /les4/users/ HTTP/1.1" 200 1010
+INFO 2024-08-24 19:41:04,202 basehttp 6502 6131019776 "GET /les4/users/ HTTP/1.1" 200 949
+INFO 2024-08-24 19:41:41,912 basehttp 6502 6131019776 "POST /les4/users/ HTTP/1.1" 200 1195
+INFO 2024-08-24 19:41:59,339 basehttp 6502 6131019776 "POST /les4/users/ HTTP/1.1" 200 1014
+INFO 2024-08-24 19:43:48,422 autoreload 6502 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/forms.py changed, reloading.
+INFO 2024-08-24 19:43:48,760 autoreload 6533 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 19:46:13,190 autoreload 6533 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myproject/settings.py changed, reloading.
+INFO 2024-08-24 19:46:13,513 autoreload 6544 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 19:47:58,256 autoreload 6544 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myproject/settings.py changed, reloading.
+INFO 2024-08-24 19:47:58,617 autoreload 6560 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 19:48:47,428 autoreload 6560 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/views.py changed, reloading.
+INFO 2024-08-24 19:48:47,722 autoreload 6569 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 19:49:00,965 autoreload 6569 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/views.py changed, reloading.
+INFO 2024-08-24 19:49:01,252 autoreload 6575 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 19:50:49,076 autoreload 6575 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/views.py changed, reloading.
+INFO 2024-08-24 19:50:49,379 autoreload 6582 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 19:51:51,449 autoreload 6582 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp4/urls.py changed, reloading.
+INFO 2024-08-24 19:51:51,805 autoreload 6592 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-24 19:53:49,719 basehttp 6592 6127316992 "POST /les4/users/ HTTP/1.1" 200 1014
+INFO 2024-08-24 19:53:59,896 basehttp 6592 6127316992 "GET /les4/upload/ HTTP/1.1" 200 661
+INFO 2024-08-24 19:54:47,265 basehttp 6592 6127316992 "POST /les4/upload/ HTTP/1.1" 200 661
+INFO 2024-08-25 15:13:28,650 autoreload 10649 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 15:13:30,737 basehttp 10649 6202716160 "GET / HTTP/1.1" 200 312
+INFO 2024-08-25 15:13:44,049 basehttp 10649 6202716160 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-08-25 15:13:44,068 basehttp 10649 6202716160 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2024-08-25 15:13:44,086 basehttp 10649 6219542528 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2024-08-25 15:13:44,086 basehttp 10649 6253195264 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-08-25 15:13:44,087 basehttp 10649 6236368896 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2024-08-25 15:13:44,088 basehttp 10649 6202716160 "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2024-08-25 15:13:44,088 basehttp 10649 6270021632 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2024-08-25 15:13:44,090 basehttp 10649 6202716160 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-08-25 15:13:44,090 basehttp 10649 6236368896 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-08-25 15:15:36,971 autoreload 10649 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myproject/settings.py changed, reloading.
+INFO 2024-08-25 15:15:37,301 autoreload 10675 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 15:15:42,143 basehttp 10675 6134345728 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2024-08-25 15:16:43,432 basehttp 10675 6134345728 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2024-08-25 15:45:35,962 autoreload 10869 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 15:45:47,308 basehttp 10869 6171029504 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-08-25 15:45:47,327 basehttp 10869 6171029504 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2024-08-25 15:45:47,365 basehttp 10869 6171029504 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-08-25 15:45:47,371 basehttp 10869 6171029504 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-08-25 15:45:47,371 basehttp 10869 6187855872 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-08-25 15:48:13,453 basehttp 10869 6187855872 "GET /admin/auth/user/ HTTP/1.1" 200 11307
+INFO 2024-08-25 15:48:13,479 basehttp 10869 6187855872 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2024-08-25 15:48:13,484 basehttp 10869 6221508608 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-08-25 15:48:13,485 basehttp 10869 6238334976 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2024-08-25 15:48:13,485 basehttp 10869 6187855872 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2024-08-25 15:48:13,485 basehttp 10869 6255161344 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2024-08-25 15:48:13,487 basehttp 10869 6221508608 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-08-25 15:48:13,488 basehttp 10869 6171029504 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 15:48:13,488 basehttp 10869 6238334976 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-08-25 15:48:13,493 basehttp 10869 6221508608 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-08-25 15:48:13,493 basehttp 10869 6204682240 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2024-08-25 15:48:13,493 basehttp 10869 6171029504 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-08-25 15:48:13,494 basehttp 10869 6187855872 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-08-25 15:48:13,499 basehttp 10869 6204682240 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-08-25 15:48:13,510 basehttp 10869 6204682240 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-08-25 15:48:13,510 basehttp 10869 6187855872 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-08-25 15:48:49,938 basehttp 10869 6187855872 "GET /admin/auth/user/add/ HTTP/1.1" 200 10988
+INFO 2024-08-25 15:48:49,953 basehttp 10869 6171029504 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-08-25 15:48:49,955 basehttp 10869 6187855872 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-08-25 15:48:49,955 basehttp 10869 6204682240 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 15:48:49,960 basehttp 10869 6204682240 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-08-25 15:48:49,960 basehttp 10869 6187855872 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11921
+INFO 2024-08-25 15:49:43,826 basehttp 10869 6187855872 "POST /admin/auth/user/add/ HTTP/1.1" 200 11443
+INFO 2024-08-25 15:49:43,850 basehttp 10869 6187855872 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 15:50:07,113 basehttp 10869 6187855872 "POST /admin/auth/user/add/ HTTP/1.1" 200 11291
+INFO 2024-08-25 15:50:07,126 basehttp 10869 6187855872 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 15:50:28,498 basehttp 10869 6187855872 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-08-25 15:50:28,522 basehttp 10869 6187855872 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23920
+INFO 2024-08-25 15:50:28,555 basehttp 10869 6204682240 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2024-08-25 15:50:28,555 basehttp 10869 6187855872 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 15:50:28,556 basehttp 10869 6221508608 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2024-08-25 15:50:28,556 basehttp 10869 6238334976 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2024-08-25 15:50:28,556 basehttp 10869 6171029504 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-08-25 15:50:28,592 basehttp 10869 6221508608 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2024-08-25 15:50:28,592 basehttp 10869 6238334976 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-08-25 15:50:28,592 basehttp 10869 6187855872 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-08-25 15:50:28,593 basehttp 10869 6171029504 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-08-25 15:50:28,593 basehttp 10869 6204682240 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-08-25 15:52:35,989 basehttp 10869 6204682240 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-08-25 15:52:36,000 basehttp 10869 6204682240 "GET /admin/auth/user/ HTTP/1.1" 200 11911
+INFO 2024-08-25 15:52:36,016 basehttp 10869 6204682240 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 15:52:44,029 basehttp 10869 6204682240 "GET /admin/auth/group/ HTTP/1.1" 200 7641
+INFO 2024-08-25 15:52:44,058 basehttp 10869 6204682240 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 15:52:50,111 basehttp 10869 6204682240 "GET /admin/auth/group/add/ HTTP/1.1" 200 13314
+INFO 2024-08-25 15:52:50,125 basehttp 10869 6204682240 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 15:53:40,441 basehttp 10869 6204682240 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-08-25 15:53:40,449 basehttp 10869 6204682240 "GET /admin/auth/group/ HTTP/1.1" 200 9104
+INFO 2024-08-25 15:53:40,476 basehttp 10869 6204682240 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 15:53:43,869 basehttp 10869 6204682240 "GET /admin/auth/user/ HTTP/1.1" 200 11992
+INFO 2024-08-25 15:53:43,884 basehttp 10869 6204682240 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 15:53:49,529 basehttp 10869 6204682240 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23697
+INFO 2024-08-25 15:53:49,556 basehttp 10869 6204682240 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 15:54:14,578 basehttp 10869 6204682240 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-08-25 15:54:14,588 basehttp 10869 6204682240 "GET /admin/auth/user/ HTTP/1.1" 200 12212
+INFO 2024-08-25 15:54:14,604 basehttp 10869 6204682240 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 15:54:23,928 basehttp 10869 6204682240 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2024-08-25 15:54:27,444 basehttp 10869 6204682240 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-08-25 15:54:27,454 basehttp 10869 6204682240 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2024-08-25 15:54:38,120 basehttp 10869 6204682240 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4533
+INFO 2024-08-25 15:54:47,018 basehttp 10869 6204682240 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-08-25 15:54:47,025 basehttp 10869 6204682240 "GET /admin/ HTTP/1.1" 200 4794
+INFO 2024-08-25 16:45:47,681 autoreload 10869 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp5/models.py changed, reloading.
+INFO 2024-08-25 16:53:55,371 autoreload 11221 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 16:54:03,930 basehttp 11221 6193508352 "GET /admin/ HTTP/1.1" 200 4794
+INFO 2024-08-25 16:54:07,851 basehttp 11221 6193508352 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2024-08-25 16:54:09,650 basehttp 11221 6193508352 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-08-25 16:54:09,663 basehttp 11221 6193508352 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2024-08-25 16:54:31,171 basehttp 11221 6193508352 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-08-25 16:54:31,182 basehttp 11221 6193508352 "GET /admin/ HTTP/1.1" 200 8199
+INFO 2024-08-25 16:56:25,991 autoreload 11221 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/admin.py changed, reloading.
+INFO 2024-08-25 16:56:26,353 autoreload 11239 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 16:56:28,533 basehttp 11239 6130610176 "GET /admin/ HTTP/1.1" 200 9314
+INFO 2024-08-25 16:57:28,225 autoreload 11247 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 16:57:30,774 basehttp 11247 6204502016 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2024-08-25 16:57:32,283 basehttp 11247 6204502016 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-08-25 16:57:32,295 basehttp 11247 6204502016 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2024-08-25 16:57:42,323 basehttp 11247 6204502016 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-08-25 16:57:42,333 basehttp 11247 6204502016 "GET /admin/ HTTP/1.1" 200 5333
+INFO 2024-08-25 16:57:50,145 basehttp 11247 6204502016 "GET /admin/myapp3/post/ HTTP/1.1" 200 17367
+ERROR 2024-08-25 16:58:01,542 log 11247 6204502016 Internal Server Error: /admin/myapp3/post/100/change/
+Traceback (most recent call last):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 208, in render
+    return template.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 177, in render
+    return self._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/utils/html.py", line 466, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/boundfield.py", line 34, in __str__
+    return self.as_widget()
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/boundfield.py", line 107, in as_widget
+    return widget.render(
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/contrib/admin/widgets.py", line 320, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 758, in get_context
+    context = super().get_context(name, value, attrs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 717, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 657, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/models.py", line 1404, in __iter__
+    yield self.choice(obj)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/models.py", line 1418, in choice
+    self.field.label_from_instance(obj),
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/models.py", line 1504, in label_from_instance
+    return str(obj)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/models.py", line 9, in __str__
+    return f'Username: {self.name}, email: {self.email}, age: {self.age}'
+AttributeError: 'Author' object has no attribute 'age'
+ERROR 2024-08-25 16:58:01,552 basehttp 11247 6204502016 "GET /admin/myapp3/post/100/change/ HTTP/1.1" 500 485307
+INFO 2024-08-25 16:58:04,551 basehttp 11247 6204502016 "GET /admin/myapp3/post/ HTTP/1.1" 200 17367
+ERROR 2024-08-25 16:58:14,656 log 11247 6204502016 Internal Server Error: /admin/myapp3/post/100/change/
+Traceback (most recent call last):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 208, in render
+    return template.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 177, in render
+    return self._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/utils/html.py", line 466, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/boundfield.py", line 34, in __str__
+    return self.as_widget()
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/boundfield.py", line 107, in as_widget
+    return widget.render(
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/contrib/admin/widgets.py", line 320, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 758, in get_context
+    context = super().get_context(name, value, attrs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 717, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 657, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/models.py", line 1404, in __iter__
+    yield self.choice(obj)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/models.py", line 1418, in choice
+    self.field.label_from_instance(obj),
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/models.py", line 1504, in label_from_instance
+    return str(obj)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/models.py", line 9, in __str__
+    return f'Username: {self.name}, email: {self.email}, age: {self.age}'
+AttributeError: 'Author' object has no attribute 'age'
+ERROR 2024-08-25 16:58:14,659 basehttp 11247 6204502016 "GET /admin/myapp3/post/100/change/ HTTP/1.1" 500 485307
+INFO 2024-08-25 16:58:27,602 basehttp 11247 6204502016 "GET /admin/myapp3/post/ HTTP/1.1" 200 17367
+ERROR 2024-08-25 16:58:29,388 log 11247 6204502016 Internal Server Error: /admin/myapp3/post/91/change/
+Traceback (most recent call last):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 208, in render
+    return template.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 177, in render
+    return self._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/utils/html.py", line 466, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/boundfield.py", line 34, in __str__
+    return self.as_widget()
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/boundfield.py", line 107, in as_widget
+    return widget.render(
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/contrib/admin/widgets.py", line 320, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 758, in get_context
+    context = super().get_context(name, value, attrs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 717, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 657, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/models.py", line 1404, in __iter__
+    yield self.choice(obj)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/models.py", line 1418, in choice
+    self.field.label_from_instance(obj),
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/models.py", line 1504, in label_from_instance
+    return str(obj)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/models.py", line 9, in __str__
+    return f'Username: {self.name}, email: {self.email}, age: {self.age}'
+AttributeError: 'Author' object has no attribute 'age'
+ERROR 2024-08-25 16:58:29,401 basehttp 11247 6204502016 "GET /admin/myapp3/post/91/change/ HTTP/1.1" 500 485119
+INFO 2024-08-25 16:58:35,294 basehttp 11247 6204502016 "GET /admin/myapp3/post/ HTTP/1.1" 200 17367
+ERROR 2024-08-25 16:58:40,775 log 11247 6204502016 Internal Server Error: /admin/myapp3/post/1/change/
+Traceback (most recent call last):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 208, in render
+    return template.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 177, in render
+    return self._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/utils/html.py", line 466, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/boundfield.py", line 34, in __str__
+    return self.as_widget()
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/boundfield.py", line 107, in as_widget
+    return widget.render(
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/contrib/admin/widgets.py", line 320, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 758, in get_context
+    context = super().get_context(name, value, attrs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 717, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 657, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/models.py", line 1404, in __iter__
+    yield self.choice(obj)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/models.py", line 1418, in choice
+    self.field.label_from_instance(obj),
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/models.py", line 1504, in label_from_instance
+    return str(obj)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/models.py", line 9, in __str__
+    return f'Username: {self.name}, email: {self.email}, age: {self.age}'
+AttributeError: 'Author' object has no attribute 'age'
+ERROR 2024-08-25 16:58:40,784 basehttp 11247 6204502016 "GET /admin/myapp3/post/1/change/ HTTP/1.1" 500 485071
+INFO 2024-08-25 16:58:53,800 basehttp 11247 6204502016 "GET /admin/myapp3/post/ HTTP/1.1" 200 17367
+INFO 2024-08-25 16:59:03,312 basehttp 11247 6204502016 "GET /admin/ HTTP/1.1" 200 5333
+INFO 2024-08-25 16:59:05,526 basehttp 11247 6204502016 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2024-08-25 16:59:08,339 basehttp 11247 6204502016 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-08-25 16:59:08,348 basehttp 11247 6204502016 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2024-08-25 16:59:22,473 basehttp 11247 6204502016 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-08-25 16:59:22,483 basehttp 11247 6204502016 "GET /admin/ HTTP/1.1" 200 9314
+INFO 2024-08-25 16:59:25,717 basehttp 11247 6204502016 "GET /admin/myapp3/post/ HTTP/1.1" 200 31590
+INFO 2024-08-25 16:59:25,741 basehttp 11247 6204502016 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2024-08-25 16:59:26,878 log 11247 6204502016 Internal Server Error: /admin/myapp3/post/100/change/
+Traceback (most recent call last):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 208, in render
+    return template.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 177, in render
+    return self._render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/template/base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/utils/html.py", line 466, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/boundfield.py", line 34, in __str__
+    return self.as_widget()
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/boundfield.py", line 107, in as_widget
+    return widget.render(
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/contrib/admin/widgets.py", line 320, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 758, in get_context
+    context = super().get_context(name, value, attrs)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 717, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/widgets.py", line 657, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/models.py", line 1404, in __iter__
+    yield self.choice(obj)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/models.py", line 1418, in choice
+    self.field.label_from_instance(obj),
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/forms/models.py", line 1504, in label_from_instance
+    return str(obj)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/models.py", line 9, in __str__
+    return f'Username: {self.name}, email: {self.email}, age: {self.age}'
+AttributeError: 'Author' object has no attribute 'age'
+ERROR 2024-08-25 16:59:26,886 basehttp 11247 6204502016 "GET /admin/myapp3/post/100/change/ HTTP/1.1" 500 605380
+INFO 2024-08-25 17:01:45,380 autoreload 11247 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/models.py changed, reloading.
+INFO 2024-08-25 17:01:45,722 autoreload 11277 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:04:31,679 autoreload 11319 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:04:36,022 basehttp 11319 6190723072 "GET /admin/myapp3/post/ HTTP/1.1" 200 31590
+INFO 2024-08-25 17:04:37,345 basehttp 11319 6190723072 "GET /admin/myapp3/post/100/change/ HTTP/1.1" 200 13655
+INFO 2024-08-25 17:04:37,392 basehttp 11319 6207549440 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-08-25 17:04:37,392 basehttp 11319 6190723072 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:04:39,789 basehttp 11319 6207549440 "GET /admin/myapp3/post/ HTTP/1.1" 200 31590
+INFO 2024-08-25 17:04:46,376 basehttp 11319 6207549440 "GET /admin/myapp5/category/ HTTP/1.1" 200 8980
+INFO 2024-08-25 17:04:46,389 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:04:47,286 basehttp 11319 6207549440 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 9821
+INFO 2024-08-25 17:04:47,310 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:05:00,649 basehttp 11319 6207549440 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2024-08-25 17:05:00,657 basehttp 11319 6207549440 "GET /admin/myapp5/category/ HTTP/1.1" 200 10443
+INFO 2024-08-25 17:05:00,674 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:05:04,161 basehttp 11319 6207549440 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 9821
+INFO 2024-08-25 17:05:04,185 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:05:09,813 basehttp 11319 6207549440 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2024-08-25 17:05:09,826 basehttp 11319 6207549440 "GET /admin/myapp5/category/ HTTP/1.1" 200 10650
+INFO 2024-08-25 17:05:09,848 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:05:12,980 basehttp 11319 6207549440 "GET /admin/myapp5/product/ HTTP/1.1" 200 8973
+INFO 2024-08-25 17:05:13,006 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:05:13,893 basehttp 11319 6207549440 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11666
+INFO 2024-08-25 17:05:13,909 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:05:36,952 basehttp 11319 6207549440 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2024-08-25 17:05:36,961 basehttp 11319 6207549440 "GET /admin/myapp5/product/ HTTP/1.1" 200 10425
+INFO 2024-08-25 17:05:36,984 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:05:40,914 basehttp 11319 6207549440 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11666
+INFO 2024-08-25 17:05:40,928 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:05:49,008 basehttp 11319 6207549440 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2024-08-25 17:05:49,016 basehttp 11319 6207549440 "GET /admin/myapp5/product/ HTTP/1.1" 200 10636
+INFO 2024-08-25 17:05:49,038 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:05:53,181 basehttp 11319 6207549440 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11666
+INFO 2024-08-25 17:05:53,194 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:06:07,350 basehttp 11319 6207549440 "GET /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4478
+INFO 2024-08-25 17:06:07,366 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:06:25,659 basehttp 11319 6207549440 "POST /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 369
+INFO 2024-08-25 17:06:25,670 basehttp 11319 6207549440 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+INFO 2024-08-25 17:06:37,862 basehttp 11319 6207549440 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2024-08-25 17:06:37,872 basehttp 11319 6207549440 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11984
+INFO 2024-08-25 17:06:37,886 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:06:50,142 basehttp 11319 6207549440 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2024-08-25 17:06:50,152 basehttp 11319 6207549440 "GET /admin/myapp5/product/ HTTP/1.1" 200 11050
+INFO 2024-08-25 17:06:50,179 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:07:10,255 basehttp 11319 6207549440 "GET /admin/myapp5/product/1/change/ HTTP/1.1" 200 11909
+INFO 2024-08-25 17:07:10,268 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:07:14,815 basehttp 11319 6207549440 "GET /admin/myapp5/product/1/delete/ HTTP/1.1" 200 9018
+INFO 2024-08-25 17:07:14,838 basehttp 11319 6207549440 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2024-08-25 17:07:35,021 basehttp 11319 6207549440 "POST /admin/myapp5/product/1/delete/ HTTP/1.1" 302 0
+INFO 2024-08-25 17:07:35,031 basehttp 11319 6207549440 "GET /admin/myapp5/product/ HTTP/1.1" 200 10796
+INFO 2024-08-25 17:07:35,044 basehttp 11319 6207549440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:15:00,181 autoreload 11319 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp5/models.py changed, reloading.
+INFO 2024-08-25 17:15:00,536 autoreload 11392 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:20:33,382 autoreload 11448 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:21:06,050 autoreload 11460 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:22:10,525 autoreload 11487 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:22:30,945 autoreload 11487 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp3/models.py changed, reloading.
+INFO 2024-08-25 17:22:31,231 autoreload 11492 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:22:35,515 autoreload 11495 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:22:40,863 basehttp 11495 6189543424 "GET /admin/myapp5/product/ HTTP/1.1" 200 10637
+INFO 2024-08-25 17:22:40,878 basehttp 11495 6189543424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:22:56,599 basehttp 11495 6189543424 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 14449
+INFO 2024-08-25 17:22:56,626 basehttp 11495 6189543424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:23:26,499 basehttp 11495 6189543424 "POST /admin/myapp5/product/4/change/ HTTP/1.1" 302 0
+INFO 2024-08-25 17:23:26,509 basehttp 11495 6189543424 "GET /admin/myapp5/product/ HTTP/1.1" 200 10848
+INFO 2024-08-25 17:23:26,522 basehttp 11495 6189543424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:24:45,689 autoreload 11495 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp5/admin.py changed, reloading.
+INFO 2024-08-25 17:24:46,039 autoreload 11520 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:25:59,249 autoreload 11520 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp5/admin.py changed, reloading.
+INFO 2024-08-25 17:25:59,584 autoreload 11541 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:27:14,941 autoreload 11541 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp5/admin.py changed, reloading.
+INFO 2024-08-25 17:27:15,269 autoreload 11552 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:27:21,785 basehttp 11552 6131822592 "GET /admin/myapp5/product/ HTTP/1.1" 200 11160
+INFO 2024-08-25 17:27:21,801 basehttp 11552 6131822592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:27:33,810 basehttp 11552 6131822592 "GET /admin/myapp5/product/?o=1 HTTP/1.1" 200 11568
+INFO 2024-08-25 17:27:33,841 basehttp 11552 6131822592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:27:35,052 basehttp 11552 6131822592 "GET /admin/myapp5/product/?o=-1 HTTP/1.1" 200 11574
+INFO 2024-08-25 17:27:35,066 basehttp 11552 6131822592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:27:36,254 basehttp 11552 6131822592 "GET /admin/myapp5/product/?o=1 HTTP/1.1" 200 11568
+INFO 2024-08-25 17:27:36,279 basehttp 11552 6131822592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:27:37,014 basehttp 11552 6131822592 "GET /admin/myapp5/product/?o=-1 HTTP/1.1" 200 11574
+INFO 2024-08-25 17:27:37,029 basehttp 11552 6131822592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:27:37,430 basehttp 11552 6131822592 "GET /admin/myapp5/product/?o=1 HTTP/1.1" 200 11568
+INFO 2024-08-25 17:27:37,457 basehttp 11552 6131822592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:27:58,051 basehttp 11552 6131822592 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 11260
+INFO 2024-08-25 17:27:58,064 basehttp 11552 6131822592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:27:59,297 basehttp 11552 6131822592 "GET /admin/myapp5/product/?o=2 HTTP/1.1" 200 11568
+INFO 2024-08-25 17:27:59,322 basehttp 11552 6131822592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:28:00,946 basehttp 11552 6131822592 "GET /admin/myapp5/product/?o=1.2 HTTP/1.1" 200 12058
+INFO 2024-08-25 17:28:00,960 basehttp 11552 6131822592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:28:02,273 basehttp 11552 6131822592 "GET /admin/myapp5/product/?o=-1.2 HTTP/1.1" 200 12066
+INFO 2024-08-25 17:28:02,295 basehttp 11552 6131822592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:28:04,236 basehttp 11552 6131822592 "GET /admin/myapp5/product/?o=2 HTTP/1.1" 200 11568
+INFO 2024-08-25 17:28:04,249 basehttp 11552 6131822592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:28:10,516 basehttp 11552 6131822592 "GET /admin/myapp5/product/?o=1.2 HTTP/1.1" 200 12058
+INFO 2024-08-25 17:28:10,541 basehttp 11552 6131822592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:28:12,512 basehttp 11552 6131822592 "GET /admin/myapp5/product/?o=2 HTTP/1.1" 200 11568
+INFO 2024-08-25 17:28:12,525 basehttp 11552 6131822592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:28:14,495 basehttp 11552 6131822592 "GET /admin/myapp5/product/?o=-2 HTTP/1.1" 200 11574
+INFO 2024-08-25 17:28:14,517 basehttp 11552 6131822592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:28:16,001 basehttp 11552 6131822592 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 11260
+INFO 2024-08-25 17:28:16,017 basehttp 11552 6131822592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:29:18,298 autoreload 11552 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp5/admin.py changed, reloading.
+INFO 2024-08-25 17:29:18,644 autoreload 11570 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:29:19,991 basehttp 11570 6197702656 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 11260
+INFO 2024-08-25 17:29:20,006 basehttp 11570 6197702656 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:29:22,574 basehttp 11570 6197702656 "GET /admin/myapp5/product/ HTTP/1.1" 200 11950
+INFO 2024-08-25 17:29:22,601 basehttp 11570 6197702656 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:38:10,457 autoreload 11570 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp5/admin.py changed, reloading.
+INFO 2024-08-25 17:38:10,785 autoreload 11636 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:38:11,946 basehttp 11636 6156726272 "GET /admin/myapp5/product/ HTTP/1.1" 200 13198
+INFO 2024-08-25 17:38:11,980 basehttp 11636 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:39:00,367 basehttp 11636 6156726272 "GET /admin/myapp5/product/?price=9999.00 HTTP/1.1" 200 13045
+INFO 2024-08-25 17:39:00,395 basehttp 11636 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:39:02,669 basehttp 11636 6156726272 "GET /admin/myapp5/product/? HTTP/1.1" 200 13198
+INFO 2024-08-25 17:39:02,695 basehttp 11636 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:39:04,668 basehttp 11636 6156726272 "GET /admin/myapp5/product/?date_added__gte=2024-08-25+00%3A00%3A00%2B00%3A00&date_added__lt=2024-08-26+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 14972
+INFO 2024-08-25 17:39:04,684 basehttp 11636 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:39:06,482 basehttp 11636 6156726272 "GET /admin/myapp5/product/? HTTP/1.1" 200 13198
+INFO 2024-08-25 17:39:06,507 basehttp 11636 6156726272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:39:55,715 autoreload 11636 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp5/admin.py changed, reloading.
+INFO 2024-08-25 17:39:56,060 autoreload 11653 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:40:33,756 autoreload 11653 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp5/admin.py changed, reloading.
+INFO 2024-08-25 17:40:34,088 autoreload 11677 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:40:36,608 basehttp 11677 6136999936 "GET /admin/myapp5/product/? HTTP/1.1" 200 13692
+INFO 2024-08-25 17:40:36,625 basehttp 11677 6136999936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:40:53,341 basehttp 11677 6136999936 "GET /admin/myapp5/product/?q=fd HTTP/1.1" 200 11542
+INFO 2024-08-25 17:40:53,356 basehttp 11677 6136999936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:40:56,024 basehttp 11677 6136999936 "GET /admin/myapp5/product/?q=f HTTP/1.1" 200 11532
+INFO 2024-08-25 17:40:56,063 basehttp 11677 6136999936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:41:04,463 basehttp 11677 6136999936 "GET /admin/myapp5/product/?q= HTTP/1.1" 200 13893
+INFO 2024-08-25 17:41:04,478 basehttp 11677 6136999936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:41:42,102 basehttp 11677 6136999936 "GET /admin/myapp5/product/3/change/?_changelist_filters=q%3D HTTP/1.1" 200 14522
+INFO 2024-08-25 17:41:42,126 basehttp 11677 6136999936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:41:53,988 basehttp 11677 6136999936 "POST /admin/myapp5/product/3/change/?_changelist_filters=q%3D HTTP/1.1" 302 0
+INFO 2024-08-25 17:41:53,998 basehttp 11677 6136999936 "GET /admin/myapp5/product/ HTTP/1.1" 200 13900
+INFO 2024-08-25 17:41:54,011 basehttp 11677 6136999936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:41:59,760 basehttp 11677 6136999936 "GET /admin/myapp5/product/?q=ochen HTTP/1.1" 200 13458
+INFO 2024-08-25 17:41:59,790 basehttp 11677 6136999936 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:43:35,810 basehttp 11677 6136999936 "GET /admin/myapp5/product/ HTTP/1.1" 200 13692
+INFO 2024-08-25 17:43:39,963 basehttp 11677 6136999936 "GET /admin/myapp5/product/?q=ochen HTTP/1.1" 200 13458
+INFO 2024-08-25 17:45:38,223 autoreload 11677 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp5/admin.py changed, reloading.
+INFO 2024-08-25 17:45:38,538 autoreload 11712 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:45:56,908 autoreload 11712 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp5/admin.py changed, reloading.
+INFO 2024-08-25 17:45:57,206 autoreload 11719 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:46:15,841 basehttp 11719 6124253184 "GET /admin/myapp5/product/?q=ochen HTTP/1.1" 200 13551
+INFO 2024-08-25 17:46:15,856 basehttp 11719 6124253184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:46:27,952 basehttp 11719 6124253184 "POST /admin/myapp5/product/?q=ochen HTTP/1.1" 302 0
+INFO 2024-08-25 17:46:27,965 basehttp 11719 6124253184 "GET /admin/myapp5/product/?q=ochen HTTP/1.1" 200 13551
+INFO 2024-08-25 17:46:27,982 basehttp 11719 6124253184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:46:34,584 basehttp 11719 6124253184 "GET /admin/myapp5/product/?q= HTTP/1.1" 200 13986
+INFO 2024-08-25 17:46:34,613 basehttp 11719 6124253184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:46:40,869 basehttp 11719 6124253184 "POST /admin/myapp5/product/?q= HTTP/1.1" 302 0
+INFO 2024-08-25 17:46:40,883 basehttp 11719 6124253184 "GET /admin/myapp5/product/?q= HTTP/1.1" 200 13986
+INFO 2024-08-25 17:46:40,898 basehttp 11719 6124253184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:46:55,591 basehttp 11719 6124253184 "GET /admin/myapp5/product/?q= HTTP/1.1" 200 13986
+INFO 2024-08-25 17:46:58,282 basehttp 11719 6124253184 "GET /admin/myapp5/product/?q= HTTP/1.1" 200 13986
+INFO 2024-08-25 17:46:59,297 basehttp 11719 6124253184 "GET /admin/myapp5/product/?q= HTTP/1.1" 200 13986
+INFO 2024-08-25 17:47:00,354 basehttp 11719 6124253184 "GET /admin/myapp5/product/?q= HTTP/1.1" 200 13986
+INFO 2024-08-25 17:48:48,524 basehttp 11719 6124253184 "GET /admin/myapp5/product/4/change/?_changelist_filters=q%3D HTTP/1.1" 200 14532
+INFO 2024-08-25 17:48:48,553 basehttp 11719 6124253184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:50:54,396 autoreload 11719 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp5/admin.py changed, reloading.
+INFO 2024-08-25 17:50:54,719 autoreload 11747 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:50:59,844 basehttp 11747 6167195648 "GET /admin/myapp5/product/4/change/?_changelist_filters=q%3D HTTP/1.1" 200 13755
+INFO 2024-08-25 17:50:59,861 basehttp 11747 6167195648 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:51:08,421 basehttp 11747 6167195648 "GET /admin/myapp5/product/?q= HTTP/1.1" 200 13986
+INFO 2024-08-25 17:51:09,731 basehttp 11747 6167195648 "GET /admin/myapp5/product/4/change/?_changelist_filters=q%3D HTTP/1.1" 200 13755
+INFO 2024-08-25 17:55:26,363 autoreload 11747 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp5/admin.py changed, reloading.
+INFO 2024-08-25 17:55:26,742 autoreload 11771 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:56:12,504 autoreload 11771 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myapp5/admin.py changed, reloading.
+INFO 2024-08-25 17:56:12,826 autoreload 11784 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-25 17:56:22,517 basehttp 11784 6135099392 "GET /admin/myapp5/product/4/change/?_changelist_filters=q%3D HTTP/1.1" 200 15667
+INFO 2024-08-25 17:56:22,552 basehttp 11784 6151925760 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2024-08-25 17:56:22,552 basehttp 11784 6135099392 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:57:10,015 basehttp 11784 6135099392 "POST /admin/myapp5/product/4/change/?_changelist_filters=q%3D HTTP/1.1" 302 0
+INFO 2024-08-25 17:57:10,035 basehttp 11784 6135099392 "GET /admin/myapp5/product/ HTTP/1.1" 200 13997
+INFO 2024-08-25 17:57:10,058 basehttp 11784 6135099392 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:57:11,524 basehttp 11784 6135099392 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 15583
+INFO 2024-08-25 17:57:11,552 basehttp 11784 6135099392 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:57:19,683 basehttp 11784 6135099392 "POST /admin/myapp5/product/4/change/ HTTP/1.1" 302 0
+INFO 2024-08-25 17:57:19,693 basehttp 11784 6135099392 "GET /admin/myapp5/product/ HTTP/1.1" 200 13997
+INFO 2024-08-25 17:57:19,707 basehttp 11784 6135099392 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-25 17:57:21,067 basehttp 11784 6135099392 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 15587
+INFO 2024-08-25 17:57:21,087 basehttp 11784 6135099392 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-08-26 16:36:52,564 autoreload 16198 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-26 16:36:54,516 basehttp 16198 6192508928 "GET / HTTP/1.1" 200 312
+INFO 2024-08-26 16:38:21,832 autoreload 16198 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myproject/settings.py changed, reloading.
+INFO 2024-08-26 16:38:22,176 autoreload 16229 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-26 16:42:01,737 autoreload 16270 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-26 16:42:03,500 basehttp 16270 6124007424 "GET / HTTP/1.1" 200 14654
+INFO 2024-08-26 16:42:03,547 basehttp 16270 6124007424 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16675
+INFO 2024-08-26 16:42:03,551 basehttp 16270 6140833792 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-08-26 16:42:03,551 basehttp 16270 6124007424 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+INFO 2024-08-26 16:42:03,568 basehttp 16270 6124007424 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+INFO 2024-08-26 16:43:00,436 basehttp 16270 6124007424 "GET /__debug__/render_panel/?store_id=0d4e87b4e4704c66810edce599aea607&panel_id=HistoryPanel HTTP/1.1" 200 2505
+INFO 2024-08-26 16:43:00,447 basehttp 16270 6124007424 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2024-08-26 16:43:09,376 basehttp 16270 6124007424 "GET /__debug__/history_sidebar/?store_id=0d4e87b4e4704c66810edce599aea607&exclude_history=True HTTP/1.1" 200 12667
+INFO 2024-08-26 16:43:24,835 basehttp 16270 6124007424 "GET /__debug__/render_panel/?store_id=0d4e87b4e4704c66810edce599aea607&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2024-08-26 16:43:43,911 basehttp 16270 6124007424 "GET /__debug__/render_panel/?store_id=0d4e87b4e4704c66810edce599aea607&panel_id=TimerPanel HTTP/1.1" 200 2266
+INFO 2024-08-26 16:43:43,931 basehttp 16270 6124007424 "GET /static/debug_toolbar/js/timer.js HTTP/1.1" 200 3686
+INFO 2024-08-26 16:44:02,333 basehttp 16270 6124007424 "GET /__debug__/render_panel/?store_id=0d4e87b4e4704c66810edce599aea607&panel_id=SettingsPanel HTTP/1.1" 200 26981
+INFO 2024-08-26 16:44:19,146 basehttp 16270 6124007424 "GET /__debug__/render_panel/?store_id=0d4e87b4e4704c66810edce599aea607&panel_id=HeadersPanel HTTP/1.1" 200 5299
+INFO 2024-08-26 16:44:59,234 basehttp 16270 6124007424 "GET /__debug__/render_panel/?store_id=0d4e87b4e4704c66810edce599aea607&panel_id=RequestPanel HTTP/1.1" 200 2373
+INFO 2024-08-26 16:45:36,227 basehttp 16270 6124007424 "GET /__debug__/render_panel/?store_id=0d4e87b4e4704c66810edce599aea607&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO 2024-08-26 16:46:14,803 basehttp 16270 6124007424 "GET /__debug__/render_panel/?store_id=0d4e87b4e4704c66810edce599aea607&panel_id=StaticFilesPanel HTTP/1.1" 200 34219
+INFO 2024-08-26 16:47:04,753 basehttp 16270 6124007424 "GET /__debug__/render_panel/?store_id=0d4e87b4e4704c66810edce599aea607&panel_id=TemplatesPanel HTTP/1.1" 200 6411
+INFO 2024-08-26 16:47:36,709 basehttp 16270 6124007424 "GET /__debug__/render_panel/?store_id=0d4e87b4e4704c66810edce599aea607&panel_id=AlertsPanel HTTP/1.1" 200 66
+INFO 2024-08-26 16:47:38,144 basehttp 16270 6124007424 "GET /__debug__/render_panel/?store_id=0d4e87b4e4704c66810edce599aea607&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2024-08-26 16:47:41,002 basehttp 16270 6124007424 "GET /__debug__/render_panel/?store_id=0d4e87b4e4704c66810edce599aea607&panel_id=SignalsPanel HTTP/1.1" 200 2265
+INFO 2024-08-26 16:49:42,302 basehttp 16270 6124007424 "GET /les4/user/add/ HTTP/1.1" 200 15729
+INFO 2024-08-26 16:49:42,339 basehttp 16270 6124007424 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-08-26 16:49:42,351 basehttp 16270 6140833792 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-08-26 16:49:42,352 basehttp 16270 6124007424 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-08-26 16:49:42,372 basehttp 16270 6124007424 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-08-26 16:49:48,887 basehttp 16270 6124007424 "GET /__debug__/render_panel/?store_id=ffc9145685af49f68e9a6c7f4f4adc62&panel_id=TemplatesPanel HTTP/1.1" 200 22953
+INFO 2024-08-26 17:07:28,434 basehttp 16270 6124007424 "GET /__debug__/render_panel/?store_id=ffc9145685af49f68e9a6c7f4f4adc62&panel_id=TimerPanel HTTP/1.1" 200 2265
+INFO 2024-08-26 17:07:28,437 basehttp 16270 6124007424 "GET /static/debug_toolbar/js/timer.js HTTP/1.1" 304 0
+INFO 2024-08-26 17:07:36,864 basehttp 16270 6124007424 "GET /__debug__/render_panel/?store_id=ffc9145685af49f68e9a6c7f4f4adc62&panel_id=SettingsPanel HTTP/1.1" 200 26981
+INFO 2024-08-26 18:51:31,314 autoreload 17395 8485506048 Watching for file changes with StatReloader
+WARNING 2024-08-26 18:51:45,619 log 17395 6127349760 Not Found: /les6/
+WARNING 2024-08-26 18:51:45,619 basehttp 17395 6127349760 "GET /les6/ HTTP/1.1" 404 17904
+INFO 2024-08-26 18:51:45,657 basehttp 17395 6127349760 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-08-26 18:51:45,659 basehttp 17395 6144176128 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-08-26 18:51:45,659 basehttp 17395 6127349760 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-08-26 18:51:45,685 basehttp 17395 6127349760 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-08-26 18:51:52,953 basehttp 17395 6127349760 "GET /les6/db/ HTTP/1.1" 200 15217
+WARNING 2024-08-26 18:52:08,882 log 17395 6127349760 Not Found: /les6/
+WARNING 2024-08-26 18:52:08,882 basehttp 17395 6127349760 "GET /les6/ HTTP/1.1" 404 17904
+INFO 2024-08-26 18:52:17,078 basehttp 17395 6127349760 "GET /les6/view/ HTTP/1.1" 200 15204
+WARNING 2024-08-26 18:52:29,600 log 17395 6127349760 Not Found: /les6/
+WARNING 2024-08-26 18:52:29,600 basehttp 17395 6127349760 "GET /les6/ HTTP/1.1" 404 17904
+INFO 2024-08-26 18:52:37,788 basehttp 17395 6127349760 "GET /les6/template/ HTTP/1.1" 200 15188
+WARNING 2024-08-26 18:52:46,673 log 17395 6127349760 Not Found: /les6/
+WARNING 2024-08-26 18:52:46,674 basehttp 17395 6127349760 "GET /les6/ HTTP/1.1" 404 17904
+INFO 2024-08-26 18:52:52,151 basehttp 17395 6127349760 "GET /les6/db/ HTTP/1.1" 200 15217
+INFO 2024-08-26 18:53:31,550 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=f39f9ac319964036b3e686291239faae&panel_id=RequestPanel HTTP/1.1" 200 2591
+INFO 2024-08-26 18:53:34,553 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=f39f9ac319964036b3e686291239faae&panel_id=SQLPanel HTTP/1.1" 200 5317
+INFO 2024-08-26 18:53:51,159 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=f39f9ac319964036b3e686291239faae&panel_id=StaticFilesPanel HTTP/1.1" 200 34219
+INFO 2024-08-26 18:53:52,659 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=f39f9ac319964036b3e686291239faae&panel_id=TemplatesPanel HTTP/1.1" 200 7089
+WARNING 2024-08-26 18:54:07,858 log 17395 6127349760 Not Found: /les6/
+WARNING 2024-08-26 18:54:07,859 basehttp 17395 6127349760 "GET /les6/ HTTP/1.1" 404 17904
+INFO 2024-08-26 18:54:11,629 basehttp 17395 6127349760 "GET /les6/view/ HTTP/1.1" 200 15204
+INFO 2024-08-26 18:54:22,852 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=dd1b28b8ed77495d8428be4512a21b98&panel_id=SQLPanel HTTP/1.1" 200 6523
+INFO 2024-08-26 18:54:34,891 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=dd1b28b8ed77495d8428be4512a21b98&panel_id=SignalsPanel HTTP/1.1" 200 2310
+INFO 2024-08-26 18:54:36,691 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=dd1b28b8ed77495d8428be4512a21b98&panel_id=RequestPanel HTTP/1.1" 200 2595
+INFO 2024-08-26 18:54:38,796 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=dd1b28b8ed77495d8428be4512a21b98&panel_id=TimerPanel HTTP/1.1" 200 2267
+INFO 2024-08-26 18:54:38,801 basehttp 17395 6127349760 "GET /static/debug_toolbar/js/timer.js HTTP/1.1" 304 0
+INFO 2024-08-26 18:54:47,851 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=dd1b28b8ed77495d8428be4512a21b98&panel_id=ProfilingPanel HTTP/1.1" 200 41604
+WARNING 2024-08-26 18:55:04,254 log 17395 6127349760 Not Found: /les6/
+WARNING 2024-08-26 18:55:04,255 basehttp 17395 6127349760 "GET /les6/ HTTP/1.1" 404 17904
+WARNING 2024-08-26 18:55:04,914 log 17395 6127349760 Not Found: /les6/
+WARNING 2024-08-26 18:55:04,914 basehttp 17395 6127349760 "GET /les6/ HTTP/1.1" 404 17904
+INFO 2024-08-26 18:55:13,010 basehttp 17395 6127349760 "GET /les6/template/ HTTP/1.1" 200 15188
+INFO 2024-08-26 18:55:18,869 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=090f9685c2714e5d99298f1ad2f90a2e&panel_id=SQLPanel HTTP/1.1" 200 24029
+INFO 2024-08-26 18:55:21,153 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=090f9685c2714e5d99298f1ad2f90a2e&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2024-08-26 18:55:24,613 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=090f9685c2714e5d99298f1ad2f90a2e&panel_id=ProfilingPanel HTTP/1.1" 200 32433
+WARNING 2024-08-26 18:55:34,574 log 17395 6127349760 Not Found: /les6/
+WARNING 2024-08-26 18:55:34,575 basehttp 17395 6127349760 "GET /les6/ HTTP/1.1" 404 17904
+INFO 2024-08-26 18:55:37,567 basehttp 17395 6127349760 "GET /les6/db/ HTTP/1.1" 200 15217
+INFO 2024-08-26 18:55:39,994 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=74f4a005cf794358b377705d86f888a7&panel_id=ProfilingPanel HTTP/1.1" 200 32518
+INFO 2024-08-26 18:55:49,803 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=74f4a005cf794358b377705d86f888a7&panel_id=TemplatesPanel HTTP/1.1" 200 7089
+INFO 2024-08-26 18:55:55,934 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=74f4a005cf794358b377705d86f888a7&panel_id=RequestPanel HTTP/1.1" 200 2591
+INFO 2024-08-26 18:56:57,887 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=74f4a005cf794358b377705d86f888a7&panel_id=HistoryPanel HTTP/1.1" 200 25493
+INFO 2024-08-26 18:56:57,893 basehttp 17395 6127349760 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2024-08-26 18:57:09,201 basehttp 17395 6127349760 "GET /__debug__/history_sidebar/?store_id=74f4a005cf794358b377705d86f888a7&exclude_history=True HTTP/1.1" 200 13259
+INFO 2024-08-26 18:57:10,389 basehttp 17395 6127349760 "GET /__debug__/history_sidebar/?store_id=8b7d87bf91c94f84b15480fb2fd40cc1&exclude_history=True HTTP/1.1" 200 13241
+INFO 2024-08-26 18:57:15,652 basehttp 17395 6127349760 "GET /__debug__/history_sidebar/?store_id=4be55ff32f984b3c99d83a021c818bac&exclude_history=True HTTP/1.1" 200 13263
+INFO 2024-08-26 18:57:17,906 basehttp 17395 6127349760 "GET /__debug__/render_panel/?store_id=4be55ff32f984b3c99d83a021c818bac&panel_id=ProfilingPanel HTTP/1.1" 200 39836
+INFO 2024-08-27 16:07:29,102 autoreload 22571 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-27 16:09:35,900 autoreload 22571 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myproject/settings.py changed, reloading.
+INFO 2024-08-27 16:09:36,252 autoreload 22584 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-27 16:10:54,645 autoreload 22602 8485506048 Watching for file changes with StatReloader
+ERROR 2024-08-27 16:10:56,186 exception 22602 6204616704 Invalid HTTP_HOST header: '127.0.0.1:8080'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8080'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-08-27 16:10:56,273 log 22602 6204616704 Bad Request: /
+WARNING 2024-08-27 16:10:56,273 basehttp 22602 6204616704 "GET / HTTP/1.1" 400 81205
+INFO 2024-08-27 16:10:56,296 basehttp 22602 6238269440 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-08-27 16:10:56,296 basehttp 22602 6204616704 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+INFO 2024-08-27 16:10:56,296 basehttp 22602 6221443072 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16675
+INFO 2024-08-27 16:10:56,343 basehttp 22602 6221443072 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+ERROR 2024-08-27 16:10:56,367 exception 22602 6221443072 Invalid HTTP_HOST header: '127.0.0.1:8080'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/Users/aharongyurjyan/PycharmProjects/django_lekci/.venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8080'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-08-27 16:10:56,417 log 22602 6221443072 Bad Request: /favicon.ico
+WARNING 2024-08-27 16:10:56,417 basehttp 22602 6221443072 "GET /favicon.ico HTTP/1.1" 400 81071
+INFO 2024-08-27 16:11:37,668 autoreload 22602 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myproject/settings.py changed, reloading.
+INFO 2024-08-27 16:11:38,029 autoreload 22612 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-27 16:11:45,562 autoreload 22616 8485506048 Watching for file changes with StatReloader
+INFO 2024-08-27 16:11:47,112 basehttp 22616 6127644672 "GET / HTTP/1.1" 200 15097
+INFO 2024-08-27 16:11:47,131 basehttp 22616 6127644672 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-08-27 16:11:47,132 basehttp 22616 6127644672 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-08-27 16:11:47,132 basehttp 22616 6144471040 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+INFO 2024-08-27 16:11:47,138 basehttp 22616 6144471040 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-08-27 16:12:22,493 autoreload 22616 8485506048 /Users/aharongyurjyan/PycharmProjects/django_lekci/myproject/myproject/settings.py changed, reloading.
+INFO 2024-08-27 16:12:22,834 autoreload 22624 8485506048 Watching for file changes with StatReloader
